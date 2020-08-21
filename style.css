@@ -1,0 +1,43 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+}
+.btn
+{
+    background-color: green;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.textarea{
+    height: 45vh;
+    border: 5px groove rgba(0,0,0,.1)
+}
+@media (min-width: 1026px){
+    .left{
+        position: sticky;
+        top: 4rem;
+        z-index: 1000;
+        height: calc(100vh - 7rem);
+        border-right: 3px solid rgba(0,0,0,.1);
+    }
+}
+
+@media (min-width: 1026px){
+    .right{
+        position: sticky;
+        top: 4rem;
+        z-index: 1000;
+        height: calc(100vh - 7rem);
+        border-left: 3px solid rgba(0,0,0,.1);
+    }
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+}
